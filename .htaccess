@@ -1,0 +1,4 @@
+AuthUserFile /home1-2/t/timohyp/.htpasswd
+AuthType Basic
+AuthName "This page is password protected. Password required."
+Require valid-user

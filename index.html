@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/index.css" rel="stylesheet">
+    <title>TV-sarjat</title>
+</head>
+<body>
+
+
+<div class="header">
+    <div class="sisennys">
+        <div class="logo">
+                 <span title="etusivu">
+                 <a href=""><img alt="logo" src="kuvat/logo.png" class="logon" width="400"></a>
+                 </span>
+        </div>
+
+        <section id="haku">
+
+            <!--<label for="hakukentta">Haku: </label>-->
+            <input id="hakukentta" placeholder="Etsi sarjaa tästä..." >
+            <button id="nappi"><img src="kuvat/haku.png" width="70%" height="70%" class="lasi"></button>
+
+        </section>
+        <span class="oikealle"><a href="https://tvmaze.com">
+            <img src="kuvat/tv.png" alt="tv" title="tvmaze.com" class="tv">
+        </a></span>
+    </div>
+</div>
+
+<main>
+    <p id="hakusanasi"></p>
+
+    <section id="tuloslaatikko" class="etusivunpiilo">
+
+        <div id="juttu" style="width:100%!important" class="etusivulletilaa">
+            <h1 style="width:100%;">TV-Sarjat</h1>
+
+            <figure>
+                <img src="kuvat/etusivu.jpg" alt="100 years of film" width="512" height="364"/>
+                <figcaption style="font-size:8pt;">100 years of film, Renato Casaro.</figcaption>
+            </figure>
+            <h4>Tällä sivulla löydät nopeasti TV-sarjoja haluamallasi hakusanalla. Sivusto käyttää TVMaze avointa
+                rajapintaa.</h4>
+            <p>Lisätietoa TVMazesta löytyy <a class="hoveraus" href="http://www.tvmaze.com/api#show-search"
+                                              title="TVMaze.com">tästä</a>.
+            </p>
+        </div>
+
+    </section>
+
+</main>
+
+<button onclick="topFunction()" id="myBtn" title="Takaisin ylös"><img src="kuvat/ylos.png" alt="ylösnappi"></button>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
